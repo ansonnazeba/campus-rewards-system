@@ -36,4 +36,10 @@ public class StudentManager {
 
         student.printSummary();
     }
+
+    public void printAllStudents() {
+        for (StudentAccount student : students.values()) {
+            System.out.println(student);
+        }
+    }
 }

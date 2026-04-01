@@ -56,4 +56,14 @@ public class StudentAccount {
             System.out.println(t);
         }
     }
+
+    @Override
+    public String toString() {
+        return "StudentAccount{" +
+                "studentId='" + studentId + '\'' +
+                ", balance=" + balance +
+                ", points=" + points +
+                ", tier=" + tier +
+                '}';
+    }
 }
